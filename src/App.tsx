@@ -76,8 +76,9 @@ void main() {
   float chosenCol = 0.0;
   bool hit = false;
 
-  float anim = uTime * mix(0.32, 0.0, uReducedMotion);
+  float anim = uTime * mix(0.40, 0.0, uReducedMotion);
   float rowPhase = 0.28;
+  float colPhase = 0.12;
 
   float hwUV = hw * cellW;
   float hhUV = hh * cellH;
@@ -87,9 +88,10 @@ void main() {
       float row = rowGuess + float(j);
       float col = colGuess + float(i);
       vec2 center = vec2((col + 0.5) + row * stagger, row + 0.5);
-      float wave = sin(anim + row * rowPhase);
+      float phase = row * rowPhase + col * colPhase;
+      float wave = sin(anim + phase);
       // Ligera traslación en UV (misma fase que la rotación)
-      vec2 driftUV = vec2(0.006 * wave, 0.0035 * sin(anim * 0.85 + row * rowPhase + 1.1));
+      vec2 driftUV = vec2(0.006 * wave, 0.0035 * sin(anim * 0.85 + phase + 1.1));
       vec2 local = grid - center;
       vec2 localUV = vec2(local.x * cellW, local.y * cellH) - driftUV;
       float ang = radians(15.0) * wave;
