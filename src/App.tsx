@@ -293,7 +293,7 @@ export default function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="/projects/stitchcode.png"
+                  src={`${import.meta.env.BASE_URL}projects/stitchcode.png`}
                   alt="Stitch Code editor with Woven language tutorial"
                   width={1280}
                   height={720}
@@ -349,7 +349,7 @@ export default function App() {
               >
                 <video
                   key={reducedMotion ? 'still' : 'play'}
-                  src="/projects/dinojam.mp4"
+                  src={`${import.meta.env.BASE_URL}projects/dinojam.mp4`}
                   autoPlay={!reducedMotion}
                   muted
                   loop
