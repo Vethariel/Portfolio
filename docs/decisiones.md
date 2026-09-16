@@ -25,7 +25,9 @@ Registro de lo acordado. Si algo cambia, actualizar este archivo y anotar el “
 | API keys visitante | **No** pedir keys (Gemini u otras) en el portafolio VPS | Ops + UX; contenido scripted |
 | Zona Stitch (visión) | Demo del marco **scripted**; Hilo profundiza si es companion | Sin LLM del visitante |
 | Motor | **Phaser** | Suficiente para top-down 2D + escenas |
-| Nombre / callsign | **Aún no** | Se decide después |
+| Pista actual | **Sitio formal**; experiencia-juego **pausada** | Ver [formal.md](./formal.md) |
+| Formal — visual | Piel de serpiente **procedural** animada (shader) | Firma Imoogi / identidad, sin ser el juego |
+| Formal — stack | **Vite + React + R3F + GLSL** (probando) | Alternativa posterior: Astro + isla Three |
 | Fan clones en el hub | Incluir con **disclaimer** fan/educativo visible | Demo técnica ≠ IP propia |
 | Alcance / ritmo | Cuatro regiones en alcance; ventana ~1 mes + Cursor | Prioridad a cerrar diseño (arte/feel después); no recortar zonas por miedo a scope |
 | Migrar demos al VPS | No en esta etapa | No aporta si son estáticos |

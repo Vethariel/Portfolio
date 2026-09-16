@@ -1,0 +1,36 @@
+:root {
+  color-scheme: dark;
+  --ink: #0a0908;
+  --bone: #e8dfd0;
+  --wine: #6b1e2e;
+  --muted: color-mix(in srgb, var(--bone) 62%, transparent);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--bone);
+  background: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}

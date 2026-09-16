@@ -1,16 +1,14 @@
 # Docs del portafolio
 
-Documentación de decisiones y criterios. **Aún no hay implementación** del sitio.
+Documentación de decisiones y criterios.
 
 | Documento | Contenido |
 |-----------|-----------|
-| [decisiones.md](./decisiones.md) | Qué ya acordamos y qué sigue abierto |
-| [arquitectura.md](./arquitectura.md) | Hosting, demos, analítica, relación entre piezas |
-| [experiencia.md](./experiencia.md) | Tono, profundidad de juego, flujo deseado |
-| [mundo.md](./mundo.md) | Mapa, zonas, Imoogi, arena, Stitch (visión) |
-| [arte.md](./arte.md) | Paleta, feel crepuscular, avatares, luces |
-| [proyectos.md](./proyectos.md) | Inventario de proyectos presentables (repos + demos) |
-| [minijuegos.md](./minijuegos.md) | Propuestas de minijuegos en modal por hábitat/proyecto |
-| [abierto.md](./abierto.md) | Preguntas pendientes para seguir contemplando |
+| [formal.md](./formal.md) | **Pista activa:** sitio formal + stack (piel procedural) |
+| [decisiones.md](./decisiones.md) | Qué ya acordamos |
+| [arquitectura.md](./arquitectura.md) | Hosting, demos, analítica |
+| [proyectos.md](./proyectos.md) | Inventario de proyectos |
+| [abierto.md](./abierto.md) | Pendientes |
+| [experiencia.md](./experiencia.md) / [mundo.md](./mundo.md) / [arte.md](./arte.md) / [minijuegos.md](./minijuegos.md) | Pista juego (**pausada**) |
 
-Cuando se pase a construir, estos docs son la fuente de verdad inicial — no un plan de tareas.
+La fuente de verdad para construir **ahora** es [formal.md](./formal.md).
